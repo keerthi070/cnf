@@ -6,9 +6,9 @@ Example:
 ```Prolog
 (A∨~B)∧(C∨D∨~E)
 ```
-Here, ```Prolog               are clauses, and the whole expression is in CNF.
+Here, ```Prolog               
       (A∨~B)and(C∨D∨~E)
-       ```` 
+       ````   are clauses, and the whole expression is in CNF.
 # steps to convert to CNF
 1. Eliminate implications and Bi-implications:
     * Replace A→B with ~A∨B.
